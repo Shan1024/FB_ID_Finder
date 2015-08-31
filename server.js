@@ -55,7 +55,7 @@ app.get('/api/:id', function(req, res){
         }else{
           console.log(chalk.red('Error occured: ' + error));
         }
-    })
+    });
 });
 
 // app.get('/token',function(req,res){
