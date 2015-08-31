@@ -9,5 +9,8 @@
     "cheerio": "latest",
     "express": "latest",
     "request": "latest"
+  },
+  "scripts": {
+    "test": "grunt --verbose"
   }
 }

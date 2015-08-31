@@ -58,6 +58,22 @@ app.get('/api/:id', function(req, res){
     })
 });
 
+// app.get('/token',function(req,res){
+//   request({
+//     url : "http://localhost:9090/api/authenticate",
+//     method : "POST",
+//     form : {
+//         "username": "shan",
+//         "password": "mahanama"
+//     }
+//   }, function(error, response, html){
+//
+//     console.log(html);
+//     res.send(html);
+//   })
+//
+// });
+
 var port = process.env.PORT ||8080;
 app.listen(port);
 console.log(chalk.green('Server started at port '+port));
