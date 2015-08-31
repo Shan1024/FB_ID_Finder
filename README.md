@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Shan1024/FB_ID_Finder.svg?branch=master)](https://travis-ci.org/Shan1024/FB_ID_Finder)
+
 This can be used to find the user ID when we know an fb app ID.
 
 How to use it - 
